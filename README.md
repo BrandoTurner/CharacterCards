@@ -1,70 +1,30 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Character Cards
 
-## Available Scripts
+Character Cards is an app that creates customizable cards . These info cards are themed around classic roleplaying card games like *Yu-gi-Oh* and *Magic The Gathering*. These cards can be used as trading cards or collectibles amongst users. 
 
-In the project directory, you can run:
+## Mockups
 
-### `npm start`
+![Mobile](https://imgur.com/a/CIFUB3l)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Desktop](https://imgur.com/a/ij9ZIO3)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Tablet](https://imgur.com/a/pAQJiHK)
 
-### `npm test`
+## Component Hierarchy
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Hierarchy](https://imgur.com/a/HvHyw3t)
 
-### `npm run build`
+## API 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This app uses the Dungeons & Dragons API to return data about classes and skills from the tabletop game. 
+[D&D 5th Edition API](https://www.dnd5eapi.co/docs/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## MVP 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This app serves to be a precursor to creating an actual D&D camapaign. You will be able to create a character by importing an image or choosing to draw one in-app. You would be able to start from a template . You will be able to allocate stat points and pick from actual classes and skills from the game. Anyone familiar with RPG's will notice recurring high fantasy themes. This app serves to be a precursor to creating an actual D&D camapaign.
 
-### `npm run eject`
+### Post MVP
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Users will be able to view trade amongst others to compare cards. Cards will be able to given serial numbers and be used uniquely as a collection of NFT's.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
