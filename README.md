@@ -5,15 +5,15 @@ Character Cards is an app that creates customizable cards . These info cards are
 
 ## Mockups
 
-![Mobile](https://imgur.com/a/CIFUB3l)
+![Mobile](https://imgur.com/a/CIFUB3l.png)
 
-![Desktop](https://imgur.com/a/ij9ZIO3)
+![Desktop](https://imgur.com/a/ij9ZIO3.png)
 
-![Tablet](https://imgur.com/a/pAQJiHK)
+![Tablet](https://imgur.com/a/pAQJiHK.png)
 
 ## Component Hierarchy
 
-![Hierarchy](https://imgur.com/a/HvHyw3t)
+![Hierarchy](https://imgur.com/a/HvHyw3t.png)
 
 ## API 
 
