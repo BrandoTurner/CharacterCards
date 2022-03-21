@@ -5,19 +5,20 @@ Character Cards is an app that creates customizable cards . These info cards are
 
 ## Mockups
 
-![Mobile](https://imgur.com/a/CIFUB3l.png)
+![Mobile](https://i.imgur.com/r3HDj1J.png)
 
-![Desktop](https://imgur.com/a/ij9ZIO3.png)
+![Desktop](https://i.imgur.com/b2xel1F.png)
 
-![Tablet](https://imgur.com/a/pAQJiHK.png)
+![Tablet](https://i.imgur.com/4py7FNU.png)
 
 ## Component Hierarchy
 
-![Hierarchy](https://imgur.com/a/HvHyw3t.png)
+![Hierarchy](https://i.imgur.com/TmqIzSL.png)
 
 ## API 
 
 This app uses the Dungeons & Dragons API to return data about classes and skills from the tabletop game. 
+
 [D&D 5th Edition API](https://www.dnd5eapi.co/docs/)
 
 ## MVP 
