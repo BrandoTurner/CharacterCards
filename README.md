@@ -23,7 +23,7 @@ This app uses the Dungeons & Dragons API to return data about classes and skills
 
 ## MVP 
 
-This app serves to be a precursor to creating an actual D&D camapaign. You will be able to create a character by importing an image or choosing to draw one in-app. You would be able to start from a template . You will be able to allocate stat points and pick from actual classes and skills from the game. Anyone familiar with RPG's will notice recurring high fantasy themes. This app serves to be a precursor to creating an actual D&D camapaign.
+This app serves to be a precursor to creating an actual D&D camapaign. You will be able to create a character by importing an image or choosing to draw one in-app. You would be able to start from a template . You will be able to allocate stat points and pick from actual classes and skills from the game. Anyone familiar with RPG's will notice recurring high fantasy themes. 
 
 ### Post MVP
 
