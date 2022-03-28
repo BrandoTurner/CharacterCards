@@ -4,6 +4,7 @@ import { useState } from "react"
 export default function ClassDropdown(props) {
     const { classObj} = props
     console.log(props.classObj)
+    
 
     const [selectedClass, setSelectedClass] = useState([])
     let handleClassChange = (e) => {

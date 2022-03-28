@@ -23,13 +23,13 @@ function Class() {
 const classObj = charClass.map((item) =>{
     return {
         name:item.name,
-        url:item.url,
-        proficiency_choices:item.proficiency_choices,
+        url:item.url
 }})
-//map through new array with class names to populate dropdown
+
+
   return (
   <div>
-      <ClassDropdown classObj={classObj} />
+      <ClassDropdown classObj={classObj}/>
       
   </div>
   )
