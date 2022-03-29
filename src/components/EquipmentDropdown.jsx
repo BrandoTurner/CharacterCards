@@ -10,7 +10,7 @@ export default function EquipmentDropdown(props) {
         setSelectedEquipment(e.target.value)}
   return (
 
-    <div>
+    <div><label>Equipment
         <select onChange={handleEquipmentChange}>
             {equipmentObj.map((equipmentName,index) => {
                 return(
@@ -21,6 +21,7 @@ export default function EquipmentDropdown(props) {
             })}
             
             </select>
+            </label>
         </div>
   )
 }

@@ -10,22 +10,18 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <div className="Header">
+        Create your Character!
+      </div>
       <div className="CustomCard">
       <Character/>
       <Class/>
-      
       <Alignment/>
       <Traits/>
       <Equipment/>
       <Spells/>
       </div>
-      <div className="FrontCard">
-      <Character/>
-
       
-      
-
-      </div>
     </div>
   );
 }

@@ -31,6 +31,7 @@ const spellObj = spell.map((item) =>{
   <div>
       <SpellDropdown spellObj={spellObj} />
       
+      
   </div>
   )
 }

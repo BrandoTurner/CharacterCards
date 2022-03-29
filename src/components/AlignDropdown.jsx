@@ -11,16 +11,19 @@ export default function AlignDropdown(props) {
   return (
 
     <div>
+        <label>Alignment
         <select onChange={handleAlignChange}>
             {alignObj.map((alignName,index) => {
                 return(
                 <option value= {alignName.name} key={alignName.name}>
                     {alignName.name}
             </option>
+            
                 )
             })}
             
             </select>
+            </label>
         </div>
   )
 }

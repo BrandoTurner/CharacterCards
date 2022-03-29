@@ -12,16 +12,18 @@ export default function ClassDropdown(props) {
   return (
 
     <div>
+        <label>Class Name
         <select onChange={handleClassChange}>
             {classObj.map((className,index) => {
                 return(
                 <option value= {className.name} key={className.name}>
                     {className.name}
             </option>
+            
                 )
             })}
             
-            </select>
+            </select></label>
         </div>
   )
 }

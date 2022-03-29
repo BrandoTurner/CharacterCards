@@ -11,6 +11,7 @@ export default function TraitsDropdown(props) {
   return (
 
     <div>
+        <label>Trait
         <select onChange={handleTraitChange}>
             {traitsObj.map((traitName,index) => {
                 return(
@@ -21,6 +22,7 @@ export default function TraitsDropdown(props) {
             })}
             
             </select>
+            </label>
         </div>
   )
 }
