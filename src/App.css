@@ -50,7 +50,7 @@ margin-bottom: 2%;
   border: none;
   border-radius: 5px 5px 4px 4px;
 }
-.CustomCard {
+.EditCard {
   line-height: 16px;
   display: flex;
   flex-direction: column;

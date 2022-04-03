@@ -9,6 +9,7 @@ export default function SpellDropdown(props) {
     const [selectedSpell, setSelectedSpell] = useState([])
     let handleSpellChange = (e) => {
         setSelectedSpell(e.target.value)}
+        console.log(selectedSpell)
   return (
 
     <div>

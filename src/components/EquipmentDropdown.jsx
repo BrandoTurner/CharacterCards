@@ -3,7 +3,7 @@ import { useState } from "react"
 
 export default function EquipmentDropdown(props) {
     const { equipmentObj} = props
-    console.log(props.EquipmentObj)
+    console.log(props.equipmentObj)
 
     const [selectedEquipment, setSelectedEquipment] = useState([])
     let handleEquipmentChange = (e) => {

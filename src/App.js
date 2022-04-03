@@ -1,26 +1,18 @@
-import Character from './components/Character';
-import  Class  from './components/Class';
-import Alignment from './components/Alignment';
-import Traits from './components/Traits';
-import Equipment from './components/Equipment';
-import Spells from './components/Spells';
+import React from 'react';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import EditCard from './components/EditCard';
 import './App.css';
 
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <div className="Header">
-        Create your Character!
-      </div>
-      <div className="CustomCard">
-      <Character/>
-      <Class/>
-      <Alignment/>
-      <Traits/>
-      <Equipment/>
-      <Spells/>
-      </div>
+      <BrowserRouter>
+        <Routes>
+      <Route path="/" element={<EditCard/>}/>
+      </Routes>
+      </BrowserRouter>
+      
       
     </div>
   );

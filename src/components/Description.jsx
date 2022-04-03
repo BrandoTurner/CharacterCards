@@ -3,16 +3,17 @@ import axios from 'axios';
 
 export default function Description (props){
 const { selectedSpell } = props
-console.log(selectedSpell)
+//console.log(selectedSpell)
 
 const [description, setDescription] = useState([]);
     const fetchDesc = async () => {
       try {
-        const DESC_URL = "https://www.dnd5eapi.co${selectedSpell";
+        const DESC_URL = `https://www.dnd5eapi.co${selectedSpell}`;
         const response = await axios.get(DESC_URL);
-        console.log("response", response.data.results);
+        
+        console.log("response", response);
           setDescription(response.data.results);
-          console.log(description)
+          console.log( description)
       } catch (error) {
         console.log(error);
       }

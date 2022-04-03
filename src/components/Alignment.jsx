@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
 import AlignDropdown from './AlignDropdown'
+
 function Alignment() {
   const [align, setAlign] = useState([]);
   const fetchAlign = async () => {

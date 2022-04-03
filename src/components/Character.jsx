@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-function Character(){
+const Character = () => {
 
     const [ characterName, setCharacterName] = useState("Laharl the Overlord");
     return (
