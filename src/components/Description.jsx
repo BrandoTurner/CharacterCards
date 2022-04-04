@@ -12,7 +12,7 @@ const [description, setDescription] = useState([]);
         const response = await axios.get(DESC_URL);
         
         console.log("response", response);
-          setDescription(response.data.results);
+          setDescription(response.data.desc);
           console.log( description)
       } catch (error) {
         console.log(error);
@@ -20,11 +20,11 @@ const [description, setDescription] = useState([]);
     };
     useEffect(() => {
       fetchDesc();
-    }, []);
+    }, [selectedSpell]);
     return(
         <div>
             <p>
-            ¯\_(ツ)_/¯
+            {description}
             </p>
         </div>
 

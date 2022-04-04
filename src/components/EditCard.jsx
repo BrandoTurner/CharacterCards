@@ -4,15 +4,19 @@ import Alignment from './Alignment';
 import Traits from './Traits';
 import Equipment from './Equipment';
 import Spells from './Spells';
+import NavBar from './NavBar';
 
 
 
 const EditCard = () => {
-  return (
-    <div className="EditCard">
-      <div className="Header">
+  return (<div>
+      <NavBar/>
+      
+  <div className="Header">
         Create your Character!
       </div>
+    <div className="EditCard">
+      
       <Character/>  
       <Class/>
       <Alignment/>
@@ -20,6 +24,7 @@ const EditCard = () => {
       <Equipment/>
       <Spells/> 
       
+    </div>
     </div>
   );
 }
