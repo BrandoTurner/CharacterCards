@@ -22,7 +22,8 @@ const [description, setDescription] = useState([]);
       fetchDesc();
     }, [selectedSpell]);
     return(
-        <div>
+        <div className="EditCard">
+          <div>Description</div>
             <p>
             {description}
             </p>
