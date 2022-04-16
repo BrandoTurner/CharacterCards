@@ -11,7 +11,7 @@ export default function AlignDropdown(props) {
   return (
 
     <div>
-        <label>Alignment
+        <label>Alignment</label>
         <select onChange={handleAlignChange}>
             {alignObj.map((alignName,index) => {
                 return(
@@ -23,7 +23,7 @@ export default function AlignDropdown(props) {
             })}
             
             </select>
-            </label>
+            
         </div>
   )
 }

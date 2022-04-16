@@ -1,5 +1,5 @@
 import { useState } from "react"
-import Description from "./Description"
+
 
 
 export default function SpellDropdown(props) {
@@ -8,12 +8,13 @@ export default function SpellDropdown(props) {
 
     const [selectedSpell, setSelectedSpell] = useState([])
     let handleSpellChange = (e) => {
-        setSelectedSpell(e.target.value)}
+        setSelectedSpell(e.target.value)
+    }
         console.log(selectedSpell)
   return (
 
     <div>
-        <label>Spell
+        <label>Spell</label>
         <select onChange={handleSpellChange}>
             {spellObj.map((spellName,index) => {
                 return(
@@ -25,12 +26,10 @@ export default function SpellDropdown(props) {
             })}
             
             </select>
-            </label> 
+             
             
-        <div>
-        <Description selectedSpell={selectedSpell}/>
         </div>
-        </div>
+        
   )
         }
 

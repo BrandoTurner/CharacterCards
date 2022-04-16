@@ -4,10 +4,10 @@ const Character = () => {
 
     const [ characterName, setCharacterName] = useState("Laharl the Overlord");
     return (
-        <div><label> Name
+        <div><label> Name</label>
             <input value={characterName}
             onChange={(e) =>  setCharacterName(e.target.value)}
-            /></label>
+            />
             
         </div>
     )

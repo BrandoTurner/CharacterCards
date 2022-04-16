@@ -1,3 +1,4 @@
+import Dropdown from './Dropdown'
 import Character from './Character';
 import  Class  from './Class';
 import Alignment from './Alignment';
@@ -18,7 +19,7 @@ const EditCard = () => {
     <div className="EditCard">
       
       <Character/>  
-      <Class/>
+      <Dropdown label="Class Name" endpoint="classes"/>
       <Alignment/>
       <Traits/>
       <Equipment/>

@@ -12,7 +12,7 @@ export default function ClassDropdown(props) {
   return (
 
     <div>
-        <label>Class Name
+        <label>Class Name</label>
         <select onChange={handleClassChange}>
             {classObj.map((className,index) => {
                 return(
@@ -23,7 +23,7 @@ export default function ClassDropdown(props) {
                 )
             })}
             
-            </select></label>
+            </select>
         </div>
   )
 }
